@@ -1,0 +1,24 @@
+.banner2 {
+    padding: 40px 0;
+    background-color: #b21012;
+  }
+  
+  .banner2-text {
+    text-align: left;
+  }
+  
+  .banner2-text h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .banner2-text p {
+    font-size: 1.25rem;
+    margin-bottom: 20px;
+  }
+  
+  .banner2 img {
+    max-width: 100%;
+    height: auto;
+  }
+  

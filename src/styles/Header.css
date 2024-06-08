@@ -1,0 +1,18 @@
+.navbar {
+  height: 80px; /* Fixed height for the navbar */
+}
+
+.navbar-brand img {
+  max-height: 100px; /* Ensure the logo fits within the navbar height */
+  width: 100px  /* Maintain aspect ratio */
+}
+/* In your CSS file (Header.css) */
+.navbar .nav-link-large {
+  font-size: 20px; /* Absolute unit in pixels */
+  font-weight: bold;
+}
+/* navbar.css */
+
+.navbar-custom {
+  background-color: #b21012;
+}

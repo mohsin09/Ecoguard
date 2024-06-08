@@ -1,0 +1,40 @@
+/* BannerSlider.css */
+
+.carousel-caption {
+  bottom: 0; /* Positioning the bottom to 0 to use Flexbox centering */
+  left: 0; /* Adjust the position from the left edge */
+  text-align: center; /* Align text to the left */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center; /* Center the content vertically */
+  height: 100%; /* Set the height to 100% to use Flexbox centering */
+  max-width: 40%; /* Limit the width to ensure it doesn't span the entire image */
+  padding-bottom: 30%; /* Add padding to the bottom for additional spacing */
+}
+
+.carousel-caption h1 {
+  font-size: 3rem; /* Adjust the font size as needed */
+  font-weight: bold;
+  text-align: center;
+  color: #fff; /* Change the text color */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Add a shadow for better readability */
+  margin-bottom: 0.5rem;
+}
+
+.carousel-caption p {
+  font-size: 1.2rem; /* Adjust the font size as needed */
+  color: #ddd; /* Change the text color */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Add a shadow for better readability */
+}
+
+.carousel-item {
+  height: 600px; /* Set a fixed height for all carousel items */
+}
+
+.carousel-item img {
+  filter: brightness(70%); /* Dim the background image to improve text readability */
+  object-fit: cover; /* Ensures the image covers the entire container */
+  height: 100%;
+  width: 100%;
+}

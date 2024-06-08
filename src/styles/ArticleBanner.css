@@ -1,0 +1,19 @@
+.article-banner {
+    padding: 40px 0;
+    background-color: #b21012;
+  }
+  
+  .article-banner .card {
+    border: none;
+  }
+  
+  .article-banner .card-title {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+  }
+  
+  .article-banner .card-text {
+    font-size: 1rem;
+    margin-bottom: 20px;
+  }
+  
